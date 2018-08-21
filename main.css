@@ -1,0 +1,52 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    background-color:rgb(128, 145, 148);
+}
+
+.banner {
+    text-align: center;
+    background: rgb(20, 16, 16);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.banner h1 {
+    color: rgb(255,255,255);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.banner:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content {
+    background-color: rgb(255, 249, 249);
+    width:80%;
+    margin:auto;
+    margin-top:80px;
+    padding:20px;
+}
+
+.content p, .content ul {
+    width:70%;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.content h2 {
+    width:70%;
+    border-bottom: 2px solid black
+}
+
+.content img {
+    float: left;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    clear: both;
+}
