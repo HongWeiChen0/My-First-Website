@@ -79,4 +79,15 @@ body {
 .buttons {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons button {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
