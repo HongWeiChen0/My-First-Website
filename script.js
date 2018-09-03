@@ -11,5 +11,5 @@ var colorChange = function () {
     for (var j = 0; j < listsElements.length; j++) {
         listsElements[j].style.color = 'rgb(' + r + ', ' + g + ', ' + b + ')';
     }
-}
+};
 button1El.addEventListener("click", colorChange);
