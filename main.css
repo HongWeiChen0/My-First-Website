@@ -20,7 +20,6 @@ body {
 }
 
 .centerPage {
-    /*background-color: rgb(255, 249, 249);*/
     width:80%;
     margin:auto;
     margin-top:60px;
@@ -67,6 +66,7 @@ body {
 
 .contentRight h4 {
     text-align: center;
+    margin: 10px;
 }
 
 .contentRight img {
@@ -74,4 +74,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 60%
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
 }
